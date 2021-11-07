@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 390px;
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: snow;
+}
+
+footer {
+    width: 100%;
+    background-color: gray;
+    padding: 16px;
+    color: silver;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: azure;
+    background-color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: snow;
+}
+
+dark .dark-mode button:hover {
+    background-color: azure;
+    color: black;
+}
+
+.dark-mode footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
